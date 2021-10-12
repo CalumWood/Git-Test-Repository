@@ -8,7 +8,7 @@ class TestMethods(unittest.TestCase):
             self.assertEqual(app.squared(i), squareNumbers[i-1])
 
     def test_cubed(self):
-        self.assertEqual(app.cubed(3), 9)
+        self.assertEqual(app.cubed(3), 27)
 
 if __name__ == '__main__':
     unittest.main()
