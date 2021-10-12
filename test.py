@@ -9,6 +9,9 @@ class TestMethods(unittest.TestCase):
 
     def test_cubed(self):
         self.assertEqual(app.cubed(3), 27)
+    
+    def test_squareRoot(self):
+        self.assertEqual(app.squareRoot(9), 3)
 
 if __name__ == '__main__':
     unittest.main()
